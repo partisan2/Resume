@@ -1,6 +1,11 @@
 import React from "react";
-import {Container, Image } from "react-bootstrap";
+import {Col, Container, Image } from "react-bootstrap";
 import image from "./image.jpeg";
+import { ImGithub } from "react-icons/im";
+import { FaLinkedin,FaFileDownload } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import resume from '../sampleData/resume.pdf' 
+
 
 
 function AboutMe() {
@@ -18,6 +23,13 @@ function AboutMe() {
             Donec vitae interdum mauris. Nulla vestibulum pharetra mauris, ac condimentum mauris blandit vitae. Pellentesque non neque mi. Proin elementum sit amet elit in ultrices. Curabitur accumsan, 
             sapien sed imperdiet rutrum, magna velit tincidunt enim, ut sagittis mi sem non lorem.
             </Container>
+            <Col className="mt-3">
+              <span className='m-3' style={{width:'100px'}}><Link to='' target="-blank"><ImGithub style={{width:38,height:38,color:'#000'}}/></Link></span>
+              <span className='m-3' style={{width:'100px'}}><Link to='' target="-blank"><FaLinkedin style={{width:38,height:38,color:'blue'}}/></Link></span>
+            </Col>
+            <Col className="d-flex align-items-center justify-content-center mt-3">
+              <span>Download CV<Link to={resume} target="_blank"><FaFileDownload style={{width:20,height:20,color:'#000'}}/></Link></span>
+            </Col>
         </Container>
       </Container>
     </Container>
