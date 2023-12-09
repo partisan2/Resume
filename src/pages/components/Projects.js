@@ -11,7 +11,7 @@ function Projects() {
       <Container className='d-flex' style={{flexWrap:'wrap',alignContent:'center'}}>
         {projectList?.map((item)=>{
             return <Card className='m-2' style={{maxWidth:"18rem",minHeight:'24rem'}}>
-                    <Card.Header>{item.projectName}</Card.Header>
+                    <Card.Header className='text-center text-white bg-primary'>{item.projectName}</Card.Header>
                     <Card.Body className='m-2'>
                         <Col>
                             <Row>{item.projectDiscription}</Row>

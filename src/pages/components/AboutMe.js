@@ -28,7 +28,7 @@ function AboutMe() {
               <span className='m-3' style={{width:'100px'}}><Link to='' target="-blank"><FaLinkedin style={{width:38,height:38,color:'blue'}}/></Link></span>
             </Col>
             <Col className="d-flex align-items-center justify-content-center mt-3">
-              <span>Download CV<Link to={resume} target="_blank"><FaFileDownload style={{width:20,height:20,color:'#000'}}/></Link></span>
+              <span>Download CV<Link to={resume} target="_blank"><FaFileDownload style={{width:20,height:20,color:'primary'}}/></Link></span>
             </Col>
         </Container>
       </Container>
