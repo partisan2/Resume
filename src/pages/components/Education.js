@@ -16,7 +16,7 @@ function Education() {
       <Container className="h-100 d-flex mb-4">
         <Container className="d-flex align-items-center justify-content-center">
           <Card style={{ maxWidth: "18rem" }}>
-            <Card.Header>Advanced Level</Card.Header>
+            <Card.Header className="bg-primary text-white">Advanced Level</Card.Header>
             <Card.Body>
                   I have completed my advanced level in Science Stream.
             </Card.Body>
@@ -37,20 +37,22 @@ function Education() {
         </Container>
         <Container className="d-flex align-items-center justify-content-center">
           <Card>
-            <Card.Header>
+            <Card.Header className="bg-primary text-white">
                 Bachelor Of Software Engineering
             </Card.Header>
             <Accordion className="m-3">
-              <Accordion.Header>
-                Completed Courses
-              </Accordion.Header>
-              <Accordion.Body>
-                <ListGroup as="ul">
-                  {moduleList?.map((Item) => {
-                    return <ListGroup.Item key={Item.id}>{Item.moduleName}</ListGroup.Item>;
-                  })}
-                </ListGroup>
-              </Accordion.Body>
+              <Accordion.Item>
+                <Accordion.Header>
+                  Completed Courses
+                </Accordion.Header>
+                <Accordion.Body>
+                  <ListGroup as="ul">
+                    {moduleList?.map((Item) => {
+                      return <ListGroup.Item key={Item.id}>{Item.moduleName}</ListGroup.Item>;
+                    })}
+                  </ListGroup>
+                </Accordion.Body>
+                </Accordion.Item>
             </Accordion>
           </Card>
         </Container>

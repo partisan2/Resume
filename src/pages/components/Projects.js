@@ -14,7 +14,7 @@ function Projects() {
                     <Card.Header className='text-center text-white bg-primary'>{item.projectName}</Card.Header>
                     <Card.Body className='m-2'>
                         <Col>
-                            <Row>{item.projectDiscription}</Row>
+                            <Row className='mb-3'>{item.projectDiscription}</Row>
                             <Row>
                                 <ListGroup as='ul'>
                                     {item.projectTools?.map((tool)=>{
