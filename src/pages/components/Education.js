@@ -41,7 +41,7 @@ function Education() {
                 Bachelor Of Software Engineering
             </Card.Header>
             <Accordion className="m-3">
-              <Accordion.Item>
+              <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   Completed Courses
                 </Accordion.Header>
