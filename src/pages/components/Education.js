@@ -13,7 +13,7 @@ function Education() {
     <>
       <hr />
       <h1 className="text-center">Education</h1>
-      <Container className="h-100 d-flex mb-4">
+      <Container className="h-100 d-flex mb-4 sm">
         <Container className="d-flex align-items-center justify-content-center">
           <Card style={{ maxWidth: "18rem" }}>
             <Card.Header className="bg-primary text-white">Advanced Level</Card.Header>
