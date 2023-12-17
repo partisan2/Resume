@@ -36,7 +36,7 @@ function Education() {
           </Card>
         </Container>
         <Container className="d-flex align-items-center justify-content-center">
-          <Card>
+          <Card style={{ minWidth: "18rem" }}>
             <Card.Header className="bg-primary text-white">
                 Bachelor Of Software Engineering
             </Card.Header>
@@ -51,6 +51,7 @@ function Education() {
                       return <ListGroup.Item key={Item.id}>{Item.moduleName}</ListGroup.Item>;
                     })}
                   </ListGroup>
+                  <span>Open University Of Sri Lanka</span>
                 </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
