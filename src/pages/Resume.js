@@ -4,6 +4,7 @@ import Education from './components/Education'
 import Projects from './components/Projects'
 import {Navbar, Container, Nav } from "react-bootstrap";
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
 
 
 
@@ -16,6 +17,7 @@ function Resume() {
             <Nav.Link to='#home'>Home</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
+            <Nav.Link href="#certificates">Certificates</Nav.Link>
           </Nav>
         </Container>
     </Navbar>
@@ -28,7 +30,10 @@ function Resume() {
     <div style={{minHeight:'100vh',width:'100vw'}} id='education'>
       <Education/>
     </div>
-    <div className='bg-dark ' style={{minHeight:'25vh',width:'100vw'}}>
+    <div style={{minHeight:'100vh',width:'100vw'}} id='certificates'>
+      <Certificates/>
+    </div>
+    <div className='bg-light ' style={{minHeight:'25vh',width:'100vw'}}>
       <Footer/>
     </div>
     </>

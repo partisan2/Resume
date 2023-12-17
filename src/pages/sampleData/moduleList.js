@@ -1,3 +1,11 @@
+import cerificate1 from './Cisco-intro-to-data-science.png'
+import cerificate2 from './cert-24184045-1060.png'
+import cerificate3 from './cert-24184045-1068.png'
+import cerificate4 from './cert-24184045-1159.png'
+import cerificate5 from './cert-24184045-1172.png'
+import cerificate6 from './uom-python.png'
+import cerificate7 from './uom-web-design.png'
+
 export const moduleList = [
     {
         id:1,
@@ -189,5 +197,36 @@ export const projectList = [
                 tool:"CSS"
             },
         ]
+    },
+]
+
+export const certficates = [
+    {
+        id:1,
+        certImage:cerificate1
+    },
+    {
+        id:2,
+        certImage:cerificate2
+    },
+    {
+        id:3,
+        certImage:cerificate3
+    },
+    {
+        id:4,
+        certImage:cerificate4
+    },
+    {
+        id:5,
+        certImage:cerificate5
+    },
+    {
+        id:6,
+        certImage:cerificate6
+    },
+    {
+        id:7,
+        certImage:cerificate7
     },
 ]

@@ -11,18 +11,18 @@ function Footer() {
             <tbody>
                 <tr>
                     <td colSpan={2}>
-                        <span className='text-white d-block' style={{fontSize:'24px',padding:'20px'}}>Contact Me</span>
+                        <span className='text-black d-block' style={{fontSize:'24px',padding:'20px'}}>Contact Me</span>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <Link to='https://github.com/partisan2' target="_blank"><ImGithub style={{width:38,height:38,color:'#fff'}}/></Link>
+                        <Link to='https://github.com/partisan2' target="_blank"><ImGithub style={{width:38,height:38,color:'#000'}}/></Link>
                     </td>
                     <td>
                     <Link to='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target="_blank"><FaLinkedin style={{width:38,height:38,color:'#0077b5'}}/></Link>
                     </td>
                     <td>
-                    <Link to='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target="_blank"><FaFacebook style={{width:38,height:38,color:'#fff'}}/></Link>
+                    <Link to='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target="_blank"><FaFacebook style={{width:38,height:38,color:'#000'}}/></Link>
                     </td>
                 </tr>
             </tbody>
